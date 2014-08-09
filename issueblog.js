@@ -66,8 +66,14 @@ var fs = require('fs'),
 			})
 			.catch(function(err) {
 				if (err.message === 'Bad credentials') {
-					console.log('loginName or password is not valid.');
+					console.log('issueblog-error: loginName or password is not valid.');
 					return _init();
+				} 
+				if (err.code === 422) {
+					console.log('issueblog-error: your already have a repository with name ' +
+						config.userName + '.github.io');
+					// TODO: prompt to delete this repository.
+					return;
 				}
 				throw err;
 			})
@@ -219,6 +225,9 @@ var fs = require('fs'),
 	_run = function() {
 		_init();
 	};
+
+// local test
+_run();
 
 module.exports = {
 	run: _run
