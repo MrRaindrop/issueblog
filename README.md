@@ -9,7 +9,7 @@ demo: [DEFINITELY H&P](http://mrraindrop.com/)
 
 ## USAGE
 
-First you must installed nodejs, then you can install this tool through npm.
+First you must have a nodejs installed, then you can install this tool through npm.
 
 ```
 npm install -g issueblog
