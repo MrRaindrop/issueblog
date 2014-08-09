@@ -1,4 +1,4 @@
 issueblog
 =========
 
-generate a blog which powered on your github page's issues.
+generate a blog powered on your github page's issues.
