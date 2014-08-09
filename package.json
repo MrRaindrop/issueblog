@@ -1,0 +1,18 @@
+{
+    "name": "issueblog",
+    "version": "0.1.0",
+    "description": "generate a blog powered on your github page's issues.",
+    "author": {
+		"name": "mr.raindrop",
+		"email": "tekkahs@gmail.com",
+		"url": "http://mrraindrop.com/"
+	},
+	"dependencies": {
+		"prompt": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url" : "https://github.com/MrRaindrop/issueblog.git"
+	}, 
+	"bin": "./bin/issueblog"
+}
