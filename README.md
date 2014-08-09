@@ -21,6 +21,6 @@ Then just enter command:
 issueblog
 ```
 
-Enter your login name and password and a domain name if your want to use your own domain name. Issue blog will auto-generate a CNAME file for you (or you can just leave it to blank and press enter.) Wait a few seconds and a fresh new issueblog will be generated!
+Enter your login name and password and a domain name (if your want to use your own domain name) according to the tips on your screen.If the domain name is entered, issueblog will auto-generate a CNAME file for you to enable github to generate a c record for your domain name. (Or you can just leave the domain name to blank and press enter to ignore it.) Wait a few seconds your fresh new issueblog will be generated!
 
 
