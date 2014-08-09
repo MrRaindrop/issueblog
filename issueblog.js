@@ -65,7 +65,11 @@ var fs = require('fs'),
 					'Enjoy it ! @issueblog');
 			})
 			.catch(function(err) {
-				if (err.message === 'Bad credentials') {
+				if (err.message === 'canceled') {
+					console.log('bye!');
+					process.exit(0);
+				}
+				if (err.code === 401) {
 					console.log('issueblog-error: loginName or password is not valid.');
 					return _init();
 				} 

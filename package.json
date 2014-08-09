@@ -1,6 +1,6 @@
 {
     "name": "issueblog",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "generate a blog powered on your github page's issues.",
     "author": {
 		"name": "mr.raindrop",
