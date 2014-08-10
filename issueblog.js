@@ -60,7 +60,7 @@ var fs = require('fs'),
 				console.log(res.length + ' files are added.\n' +
 					'issueblog has been created on your github pages.\n' +
 					'Your blog page should be available in at most 10 minutes.\n' +
-					'Please check out this uri:\n' + 
+					'Wait up to 10 minutes to check out this url:\n' + 
 					'https://' + config.userName + '.github.io\n' +
 					'Enjoy it ! @issueblog');
 			})
