@@ -8,10 +8,10 @@
 		"url": "http://mrraindrop.com/"
 	},
 	"dependencies": {
-		"prompt": "*",
-		"github": "*",
-		"q": "*",
-		"ejs": "*"
+		"prompt": "0.2.13",
+		"github": "0.2.1",
+		"q": "1.0.1",
+		"ejs": "1.0.0"
 	},
 	"repository": {
 		"type": "git",
