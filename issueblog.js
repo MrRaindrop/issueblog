@@ -93,7 +93,7 @@ var fs = require('fs'),
 				} else {
 					config.userName = res.userName;
 					config.password = res.password;
-					config.domainName = res.domainName;
+					config.domainName = res.domainName || ' ';
 					resolve();
 				}
 			});
@@ -231,7 +231,7 @@ var fs = require('fs'),
 	};
 
 // local test
-_run();
+// _run();
 
 module.exports = {
 	run: _run
