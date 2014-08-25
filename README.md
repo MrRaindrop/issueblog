@@ -5,7 +5,7 @@ generate a blog powered on your github page's issues.
 
 This tool enable you to write blogs as issues of your personal github page's repository. Instead of tunning css and theme of your github pages, or spend days and nights to cofigure jekyll or octopress to create your blog pages, you can build your blog in a minute and then start to write your blog immediately. You can also bind your own domain name to your pages, by placing a CNAME file in your repository where the content of file is your domain name, such as "mrraindrop.com".
 
-demo: [DEFINITELY H&P](http://mrraindrop.com/)
+demo: [DEFINITELY H&P](http://mrraindrop.github.io/)
 
 ## USAGE
 
